@@ -1,13 +1,17 @@
-.h1 {
-
+h1 {
+	font-family: helvetica;
+	font-size: 28px;
+	font-style: bold;
+	text-align: center;
 }
 
 .h2	{
-	
+	font-family: helvetica;
+	font-size: 20px;
 }
 
 #viewport {
-
+	background-color: grey;
 }
 
 #word {
@@ -16,4 +20,16 @@
 
 #new-word {
 
+}
+
+input {
+	display: block;
+	margin: 10px auto;
+}
+
+
+p {
+	text-align: center;
+	font-family: aria;
+	font-size: 16px;
 }

@@ -1,24 +1,17 @@
 <html>
 	<head>
 		<title>Pig Latin Game</title>
+		 <link rel="stylesheet" href="style.css" type="text/css" media="screen" />
+		 <script src="piglatin.js"></script>
+		 <script src="jquery-2.0.2.min.js"></script>
 	</head>
 
 	<body>
-
-		<h1>Pig Latin Converter (built in JavaScript)</h1>
-
 		<div id="viewport">
-
-			<p>
-			Turn any word into pig latin: 
-			<input type="text" id="word">
-			</p>
-
+			<h1>Pig Latin Converter (built in JavaScript)</h1>
+			<p>Turn any word into pig latin:</p>
+			<form><input type="text" id="word"></form> <--!value="enter word" onClick="window.location.reload()"> 
 			<button>Go!</button>
 			<h2 id="piglatin"></h2>
 		</div>
-
-		<--!script-->
-		<script src="piglatin.js"></script>
-
 	</body> 
